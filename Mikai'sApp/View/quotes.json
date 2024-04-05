@@ -1,182 +1,138 @@
-    [
-        {
-            "content": "You cannot find peace by avoiding life",
-            "author": "Virginia Woolf"
-        },
-        {
-            "content": "The strongest principle of growth lies in the human choice",
-            "author": "George Eliot"
-        },
-        {
-            "content": "Pain is inevitable. Suffering is optional",
-            "author": "Haruki Murakami"
-        },
-        {
-            "content": "Believe you can and you're halfway there",
-            "author": "Theodore Roosevelt"
-        },
-        {
-            "content": "Your time is limited, don't waste it living someone else's life",
-            "author": "Steve Jobs"
-        },
-        {
-            "content": "The only way to do great work is to love what you do",
-            "author": "Steve Jobs"
-        },
-        {
-            "content": "Don't watch the clock; do what it does. Keep going",
-            "author": "Sam Levenson"
-        },
-        {
-            "content": "Success is not final, failure is not fatal: It is the courage to continue that counts",
-            "author": "Winston Churchill"
-        },
-        {
-            "content": "The only place where success comes before work is in the dictionary",
-            "author": "Vidal Sassoon"
-        },
-        {
-            "content": "Don't be pushed around by the fears in your mind. Be led by the dreams in your heart",
-            "author": "Roy T. Bennett"
-        },
-        {
-            "content": "The only limit to our realization of tomorrow will be our doubts of today",
-            "author": "Franklin D. Roosevelt"
-        },
-        {
-            "content": "Success usually comes to those who are too busy to be looking for it",
-            "author": "Henry David Thoreau"
-        },
-        {
-            "content": "Don't cry because it's over, smile because it happened",
-            "author": "Dr. Seuss"
-        },
-        {
-            "content": "The purpose of our lives is to be happy",
-            "author": "Dalai Lama"
-        },
-        {
-            "content": "The future belongs to those who believe in the beauty of their dreams",
-            "author": "Eleanor Roosevelt"
-        },
-        {
-            "content": "You are never too old to set another goal or to dream a new dream",
-            "author": "C.S. Lewis"
-        },
-        {
-            "content": "Strive not to be a success, but rather to be of value",
-            "author": "Albert Einstein"
-        },
-        {
-            "content": "Your attitude, not your aptitude, will determine your altitude",
-            "author": "Zig Ziglar"
-        },
-        {
-            "content": "It always seems impossible until it's done",
-            "author": "Nelson Mandela"
-        },
-        {
-            "content": "You miss 100% of the shots you don't take",
-            "author": "Wayne Gretzky"
-        },
-        {
-            "content": "The only person you are destined to become is the person you decide to be",
-            "author": "Ralph Waldo Emerson"
-        },
-        {
-            "content": "Success is stumbling from failure to failure with no loss of enthusiasm",
-            "author": "Winston S. Churchill"
-        },
-        {
-            "content": "I find that the harder I work, the more luck I seem to have",
-            "author": "Thomas Jefferson"
-        },
-        {
-            "content": "A journey of a thousand miles begins with a single step",
-            "author": "Lao Tzu"
-        },
-        {
-            "content": "I am not a product of my circumstances. I am a product of my decisions",
-            "author": "Stephen R. Covey"
-        },
-        {
-            "content": "The only way to achieve the impossible is to believe it is possible",
-            "author": "Charles Kingsleigh"
-        },
-        {
-            "content": "The best way to predict the future is to create it",
-            "author": "Peter Drucker"
-        },
-        {
-            "content": "Don't wait. The time will never be just right",
-            "author": "Napoleon Hill"
-        },
-        {
-            "content": "Nothing in the world can take the place of Persistence. Talent will not; nothing is more common than unsuccessful men with talent. Genius will not; unrewarded genius is almost a proverb. The slogan 'Press On' has solved and always will solve the problems of the human race",
-            "author": "Calvin Coolidge"
-        },
-        {
-            "content": "The only place where success comes before work is in the dictionary",
-            "author": "Vidal Sassoon"
-        },
-        {
-            "content": "The only limit to our realization of tomorrow will be our doubts of today",
-            "author": "Franklin D. Roosevelt"
-        },
-        {
-            "content": "Success usually comes to those who are too busy to be looking for it",
-            "author": "Henry David Thoreau"
-        },
-        {
-            "content": "Don't cry because it's over, smile because it happened",
-            "author": "Dr. Seuss"
-        },
-        {
-            "content": "The purpose of our lives is to be happy",
-            "author": "Dalai Lama"
-        },
-        {
-            "content": "The future belongs to those who believe in the beauty of their dreams",
-            "author": "Eleanor Roosevelt"
-        },
-        {
-            "content": "You are never too old to set another goal or to dream a new dream",
-            "author": "C.S. Lewis"
-        },
-        {
-            "content": "Strive not to be a success, but rather to be of value",
-            "author": "Albert Einstein"
-        },
-        {
-            "content": "Your attitude, not your aptitude, will determine your altitude",
-            "author": "Zig Ziglar"
-        },
-        {
-            "content": "It always seems impossible until it's done",
-            "author": "Nelson Mandela"
-        },
-        {
-            "content": "You miss 100% of the shots you don't take",
-            "author": "Wayne Gretzky"
-        },
-        {
-            "content": "The only person you are destined to become is the person you decide to be",
-            "author": "Ralph Waldo Emerson"
-        },
-        {
-            "content": "Success is stumbling from failure to failure with no loss of enthusiasm",
-            "author": "Winston S. Churchill"
-        },
-        {
-            "content": "I find that the harder I work, the more luck I seem to have",
-            "author": "Thomas Jefferson"
-        },
-        {
-            "content": "A journey of a thousand miles begins with a single step",
-            "author": "Lao Tzu"
-        },
-        {
-            "content": "I am not a product of my circumstances. I am a product of my decisions",
-            "author": "Stephen R. Covey"
-        }
+var quotes: [Quote]=[
+    Quote(content: "You cannot find peace by avoiding life",
+        author: "Virginia Woolf",
+        isLiked: false),
+    Quote(content: "The strongest principle of growth lies in the human choice",
+        author: "George Eliot",
+        isLiked: false),
+    Quote(content: "Pain is inevitable. Suffering is optional",
+        author: "Haruki Murakami",
+        isLiked: false),
+    Quote(content: "Believe you can and you're halfway there",
+        author: "Theodore Roosevelt",
+        isLiked: false),
+    Quote(content: "Your time is limited, don't waste it living someone else's life",
+        author: "Steve Jobs",
+        isLiked: false),
+    Quote(content: "The only way to do great work is to love what you do",
+        author: "Steve Jobs",
+        isLiked: false),
+    Quote(content: "Don't watch the clock; do what it does. Keep going",
+        author: "Sam Levenson",
+        isLiked: false),
+    Quote(content: "Success is not final, failure is not fatal: It is the courage to continue that counts",
+        author: "Winston Churchill",
+        isLiked: false),
+    Quote(content: "The only place where success comes before work is in the dictionary",
+        author: "Vidal Sassoon",
+        isLiked: false),
+    Quote(content: "Don't be pushed around by the fears in your mind. Be led by the dreams in your heart",
+        author: "Roy T. Bennett",
+        isLiked: false),
+    Quote(content: "The only limit to our realization of tomorrow will be our doubts of today",
+        author: "Franklin D. Roosevelt",
+        isLiked: false),
+    Quote(content: "Success usually comes to those who are too busy to be looking for it",
+        author: "Henry David Thoreau",
+        isLiked: false),
+    Quote(content: "Don't cry because it's over, smile because it happened",
+        author: "Dr. Seuss",
+        isLiked: false),
+    Quote(content: "The purpose of our lives is to be happy",
+        author: "Dalai Lama",
+        isLiked: false),
+    Quote(content: "The future belongs to those who believe in the beauty of their dreams",
+        author: "Eleanor Roosevelt",
+        isLiked: false),
+    Quote(content: "You are never too old to set another goal or to dream a new dream",
+        author: "C.S. Lewis",
+        isLiked: false),
+    Quote(content: "Strive not to be a success, but rather to be of value",
+        author: "Albert Einstein",
+        isLiked: false),
+    Quote(content: "Your attitude, not your aptitude, will determine your altitude",
+        author: "Zig Ziglar",
+        isLiked: false),
+    Quote(content: "It always seems impossible until it's done",
+        author: "Nelson Mandela",
+        isLiked: false),
+    Quote(content: "You miss 100% of the shots you don't take",
+        author: "Wayne Gretzky",
+        isLiked: false),
+    Quote(content: "The only person you are destined to become is the person you decide to be",
+        author: "Ralph Waldo Emerson",
+        isLiked: false),
+    Quote(content: "Success is stumbling from failure to failure with no loss of enthusiasm",
+        author: "Winston S. Churchill",
+        isLiked: false),
+    Quote(content: "I find that the harder I work, the more luck I seem to have",
+        author: "Thomas Jefferson",
+        isLiked: false),
+    Quote(content: "A journey of a thousand miles begins with a single step",
+        author: "Lao Tzu",
+        isLiked: false),
+    Quote(content: "I am not a product of my circumstances. I am a product of my decisions",
+        author: "Stephen R. Covey",
+        isLiked: false),
+    Quote(content: "The only way to achieve the impossible is to believe it is possible",
+        author: "Charles Kingsleigh",
+        isLiked: false),
+    Quote(content: "The best way to predict the future is to create it",
+        author: "Peter Drucker",
+        isLiked: false),
+    Quote(content: "Don't wait. The time will never be just right",
+        author: "Napoleon Hill",
+        isLiked: false),
+    Quote(content: "Nothing in the world can take the place of Persistence. Talent will not; nothing is more common than unsuccessful men with talent. Genius will not; unrewarded genius is almost a proverb. The slogan 'Press On' has solved and always will solve the problems of the human race",
+        author: "Calvin Coolidge",
+        isLiked: false),
+    Quote(content: "The only place where success comes before work is in the dictionary",
+        author: "Vidal Sassoon",
+        isLiked: false),
+    Quote(content: "The only limit to our realization of tomorrow will be our doubts of today",
+        author: "Franklin D. Roosevelt",
+        isLiked: false),
+    Quote(content: "Success usually comes to those who are too busy to be looking for it",
+        author: "Henry David Thoreau",
+        isLiked: false),
+    Quote(content: "Don't cry because it's over, smile because it happened",
+        author: "Dr. Seuss",
+        isLiked: false),
+    Quote(content: "The purpose of our lives is to be happy",
+        author: "Dalai Lama",
+        isLiked: false),
+    Quote(content: "The future belongs to those who believe in the beauty of their dreams",
+        author: "Eleanor Roosevelt",
+        isLiked: false),
+    Quote(content: "You are never too old to set another goal or to dream a new dream",
+        author: "C.S. Lewis",
+        isLiked: false),
+    Quote(content: "Strive not to be a success, but rather to be of value",
+        author: "Albert Einstein",
+        isLiked: false),
+    Quote(content: "Your attitude, not your aptitude, will determine your altitude",
+        author: "Zig Ziglar",
+        isLiked: false),
+    Quote(content: "It always seems impossible until it's done",
+        author: "Nelson Mandela",
+        isLiked: false),
+    Quote(content: "You miss 100% of the shots you don't take",
+        author: "Wayne Gretzky",
+        isLiked: false),
+    Quote(content: "The only person you are destined to become is the person you decide to be",
+        author: "Ralph Waldo Emerson",
+        isLiked: false),
+    Quote(content: "Success is stumbling from failure to failure with no loss of enthusiasm",
+        author: "Winston S. Churchill",
+        isLiked: false),
+    Quote(content: "I find that the harder I work, the more luck I seem to have",
+        author: "Thomas Jefferson",
+        isLiked: false),
+    Quote(content: "A journey of a thousand miles begins with a single step",
+        author: "Lao Tzu",
+        isLiked: false),
+    Quote(content: "I am not a product of my circumstances. I am a product of my decisions",
+        author: "Stephen R. Covey",
+        isLiked: false
+    )
 ]

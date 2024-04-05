@@ -9,8 +9,11 @@ import SwiftUI
 
 struct LikedQuotesView: View {
     var body: some View {
+        
+    
        BackgroundView()
     }
+    
 }
 
 #Preview {

@@ -92,6 +92,6 @@ fileprivate struct ParticleModifier: ViewModifier {
     
 struct MyPreviewProvider_Preview: PreviewProvider {
     static var previews: some View {
-        HeartShareButtons()
+        RectangleQuotes()
     }
 }

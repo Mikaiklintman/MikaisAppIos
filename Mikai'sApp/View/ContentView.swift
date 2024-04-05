@@ -8,28 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-       
-        VStack{
-            ZStack{
-                
-                BackgroundView()
-                
-                
-                
-                RectangleQuotes()
-                
-              
-                HeartShareButtons()
-                    .padding(.top, 150.0)
-                
-                
-                
-            }
 
+    var body: some View {
+        VStack {
+            ZStack {
+                BackgroundView()
+                RectangleQuotes()
             }
         }
     }
+}
 
 
 #Preview {

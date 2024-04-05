@@ -11,10 +11,10 @@ struct Quote: Identifiable {
     var id = UUID()
     let content: String
     let author: String
-    let isLiked: Bool
+    var isLiked: Bool
 }
 
-let quotes: [Quote] = [
+var quotes: [Quote] = [
     Quote(content: "You cannot find peace by avoiding life",
         author: "Virginia Woolf",
         isLiked: false),

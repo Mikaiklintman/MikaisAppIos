@@ -15,9 +15,8 @@
 		6A08969A2B529BC30023F229 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0896992B529BC30023F229 /* BackgroundView.swift */; };
 		6A08969C2B529BC50023F229 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A08969B2B529BC50023F229 /* Assets.xcassets */; };
 		6A08969F2B529BC50023F229 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A08969E2B529BC50023F229 /* Preview Assets.xcassets */; };
-		6A33A1802B5D76410027AB3E /* Quotes.json in Sources */ = {isa = PBXBuildFile; fileRef = 6A33A17F2B5D76410027AB3E /* Quotes.json */; };
+		6AEA89572BAB207C000E5E00 /* Quotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEA89562BAB207C000E5E00 /* Quotes.swift */; };
 		6AF445392B56DD41007C87ED /* ExtraRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF445382B56DD41007C87ED /* ExtraRectangle.swift */; };
-		6AF4453B2B56DEA9007C87ED /* HeartShareButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF4453A2B56DEA9007C87ED /* HeartShareButtons.swift */; };
 		6AF445402B56E56E007C87ED /* ParticleEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF4453F2B56E56E007C87ED /* ParticleEffect.swift */; };
 		6AF445422B56E637007C87ED /* Particle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF445412B56E637007C87ED /* Particle.swift */; };
 		6AF445482B56F93E007C87ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF445472B56F93E007C87ED /* ContentView.swift */; };
@@ -36,9 +35,8 @@
 		6A0896992B529BC30023F229 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		6A08969B2B529BC50023F229 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A08969E2B529BC50023F229 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		6A33A17F2B5D76410027AB3E /* Quotes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Quotes.json; sourceTree = "<group>"; };
+		6AEA89562BAB207C000E5E00 /* Quotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quotes.swift; sourceTree = "<group>"; };
 		6AF445382B56DD41007C87ED /* ExtraRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraRectangle.swift; sourceTree = "<group>"; };
-		6AF4453A2B56DEA9007C87ED /* HeartShareButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartShareButtons.swift; sourceTree = "<group>"; };
 		6AF4453F2B56E56E007C87ED /* ParticleEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleEffect.swift; sourceTree = "<group>"; };
 		6AF445412B56E637007C87ED /* Particle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Particle.swift; sourceTree = "<group>"; };
 		6AF445472B56F93E007C87ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,7 +95,6 @@
 		6AF4453C2B56E499007C87ED /* Buttons */ = {
 			isa = PBXGroup;
 			children = (
-				6AF4453A2B56DEA9007C87ED /* HeartShareButtons.swift */,
 				6AF445532B570676007C87ED /* ShimmerEffect.swift */,
 				6AF445412B56E637007C87ED /* Particle.swift */,
 				6AF4453F2B56E56E007C87ED /* ParticleEffect.swift */,
@@ -109,8 +106,8 @@
 			isa = PBXGroup;
 			children = (
 				6AF445472B56F93E007C87ED /* ContentView.swift */,
-				6A33A17F2B5D76410027AB3E /* Quotes.json */,
 				6AF445512B56FD40007C87ED /* Tabs.swift */,
+				6AEA89562BAB207C000E5E00 /* Quotes.swift */,
 				6A0896992B529BC30023F229 /* BackgroundView.swift */,
 				6A045FFF2B5531F6002E025B /* RectangleQuotes.swift */,
 				6AF445492B56FB0C007C87ED /* LikedQuotesView.swift */,
@@ -201,9 +198,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6AF445522B56FD40007C87ED /* Tabs.swift in Sources */,
-				6AF4453B2B56DEA9007C87ED /* HeartShareButtons.swift in Sources */,
-				6A33A1802B5D76410027AB3E /* Quotes.json in Sources */,
 				6AF445422B56E637007C87ED /* Particle.swift in Sources */,
+				6AEA89572BAB207C000E5E00 /* Quotes.swift in Sources */,
 				6A08969A2B529BC30023F229 /* BackgroundView.swift in Sources */,
 				6AF445402B56E56E007C87ED /* ParticleEffect.swift in Sources */,
 				6A0896982B529BC30023F229 /* Mikai_sAppApp.swift in Sources */,
